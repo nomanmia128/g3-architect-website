@@ -186,6 +186,15 @@ main{
     width: 165px;
 }
 
+/* footer styles */
+.footer-title{
+    font-size: 20px;
+    text-align: center;
+    background: rgba(255, 144, 14, 0.10);
+    padding: 40px;
+    margin: 50px 150px;
+}
+
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width:576px) {
@@ -223,6 +232,8 @@ main{
         gap: 20px;
     }
 }
+
+
 
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width:960px) {
